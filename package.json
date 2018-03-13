@@ -8,7 +8,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "develop-host": "gatsby develop --host 192.168.0.112",
-    "build": "npm install && gatsby build",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "format-output": "prettier src/**/*.{js,jsx}",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -73,7 +73,7 @@
   },
   "dependencies": {
     "color": "^3.0.0",
-    "gatsby": "1.9.224",
+    "gatsby": "^1.9.223",
     "gatsby-cli": "1.1.45",
     "gatsby-image": "^1.0.35",
     "gatsby-link": "^1.6.36",
